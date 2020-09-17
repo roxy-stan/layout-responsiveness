@@ -1,10 +1,11 @@
+/* iti recomand sa pui selectorul universal primul in lista */
+* {
+    box-sizing: border-box;
+}
+
 html, body {
     margin: 0;
     padding: 0;
-}
-
-* {
-    box-sizing: border-box;
 }
 
 .wrapper {
@@ -77,6 +78,7 @@ aside {
 .container-white h3 {
     width: 280px;
     font-size: 60px;
+    /* in loc de margin-ul acesta negativ poti sa ajustezi si margin-bottom de la h-ul superior */
     margin-top:-80px;
     margin-bottom: 40px;
     line-height: 65px;
@@ -198,6 +200,7 @@ button {
 
 
     .img-container {
+        /* aveai nevoie de pozitionare aici? trebuia doar sa te intinzi pe intregul viewport */
         position: absolute;
         width: 100%;
         height: 300px;
