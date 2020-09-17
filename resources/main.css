@@ -199,13 +199,15 @@ button {
         display: none;
     }
 
+    aside {
+        display: none;
+    }
+
 
     .img-container {
         /* aveai nevoie de pozitionare aici? trebuia doar sa te intinzi pe intregul viewport */
-        position: absolute;
-        width: 100%;
+        width: 100vw;
         height: 300px;
-        background-size: cover;
     }
 
     .container-white {
